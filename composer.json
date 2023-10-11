@@ -1,5 +1,5 @@
 {
-  "name": "nakukryskin/orchid-repeater-field",
+  "name": "verokha/orchid-repeater-field",
   "description": "Adding support of repeater field to the Orchid RAD platform.",
   "license": "wtfpl",
   "authors": [
@@ -16,8 +16,8 @@
     "Repeater Field"
   ],
   "require": {
-    "laravel/framework": "^9.21",
-    "orchid/platform": "^13.0.1"
+    "laravel/framework": "^10.0",
+    "orchid/platform": "^14.0.1"
   },
   "require-dev": {
     "mockery/mockery": "^1.1",
