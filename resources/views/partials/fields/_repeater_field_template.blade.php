@@ -3,7 +3,7 @@
         <div class="card-header">
             <h5 class="actions">
                 <span class="action card-handle icon-size-fullscreen" data-parent-container-key="@{{it.name}}">
-                    <x-orchid-icon path="cursor-move" class="small me-2"></x-orchid-icon>
+                    <x-orchid-icon path="arrows-move" class="small me-2"></x-orchid-icon>
                 </span>
                 @if($collapse ?? false)
                 <span class="action collapse-switch" data-action="click->fields--repeater#collapse">
@@ -11,10 +11,10 @@
                 </span>
                 @endif
                 <span class="action icon-plus" data-action="click->fields--repeater#addBlockAfter">
-                    <x-orchid-icon path="plus" class="small me-2"></x-orchid-icon>
+                    <x-orchid-icon path="plus-circle" class="small me-2"></x-orchid-icon>
                 </span>
                 <span class="action" data-action="click->fields--repeater#deleteBlock">
-                    <x-orchid-icon path="minus" class="small me-2"></x-orchid-icon>
+                    <x-orchid-icon path="dash-circle" class="small me-2"></x-orchid-icon>
                 </span>
                 <span class="badge badge-success small v-top bg-primary text-white pull-right"
                       data-target="fields--repeater.repeaterBlockCount">@{{it.block_count}}</span>

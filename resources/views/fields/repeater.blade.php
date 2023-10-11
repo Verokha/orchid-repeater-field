@@ -22,7 +22,7 @@
                         ]) }}
                     </div>
                     <div class="loading-message">
-                        <x-orchid-icon path="loading" class="me-2 loading-icon"></x-orchid-icon>
+                        <x-orchid-icon path="arrow-repeat" class="me-2 loading-icon"></x-orchid-icon>
                     </div>
                     <section class="repeaters_container"
                              data-target="fields--repeater.blocks"
